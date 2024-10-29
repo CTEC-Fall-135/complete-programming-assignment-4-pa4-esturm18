@@ -7,8 +7,13 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
+//Name: Emma Sturm
+//Date: 10/28/2024
+//Assignment 4
+
 namespace PhoneBook
 {
+    //Class Entity
     public abstract class Entity
     {
         #region Properties
@@ -35,6 +40,7 @@ namespace PhoneBook
 
     }
 
+    //Class Business
     public class Business: Entity
     {
         #region Properties
@@ -68,6 +74,7 @@ namespace PhoneBook
 
     }
 
+    //Class Person
     public class Person : Entity
     {
         #region Properties

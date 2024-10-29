@@ -30,10 +30,14 @@ namespace PhoneBook
         {
             for (int i = 0; i < entities.Length; i++)
             {
-                entities[i] = entity;
-                return;
+                if (entities[i] == null)
+                {
+                    entities[i] = entity;
+                    return;
+                }
             }
         }
+
 
         //Add a business
         public void AddBusinessEntity(int id, string name, Address address, string phoneNumber, string businessType, string businessName)

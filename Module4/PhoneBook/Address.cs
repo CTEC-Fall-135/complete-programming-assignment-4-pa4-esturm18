@@ -4,8 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//Name: Emma Sturm
+//Date: 10/28/2024
+//Assignment4
+
 namespace PhoneBook
+
 {
+ //Address class
     public class Address
     {
         #region Properties
